@@ -2,6 +2,10 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
+## Database schema
+
+The database schema is defined in [prisma/schema.prisma](prisma/schema.prisma). Reference it anytime you need to understand the structure of data stored in the database.
+
 ## Commands
 
 ```bash
@@ -76,3 +80,7 @@ SQLite via Prisma. Schema: `User` (id, email, hashed password) → `Project` (id
 - **Shadcn/ui** components in `src/components/ui/` — add new ones with `npx shadcn@latest add <component>`
 - **Monaco Editor** wraps `src/components/editor/CodeEditor.tsx`
 - **Vercel AI SDK 4.x** handles streaming and tool-call orchestration on both client and server
+
+## Code style
+
+Use comments sparingly. Only comment complex code.
