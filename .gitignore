@@ -24,6 +24,7 @@
 .DS_Store
 *.pem
 .history
+.playwright-mcp
 
 # debug
 npm-debug.log*
